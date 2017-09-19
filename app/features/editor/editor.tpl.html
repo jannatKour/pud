@@ -1,0 +1,12 @@
+<h1>TinyMce editor</h1>
+
+<form method="post">
+  <textarea ui-tinymce="editor.tinymceOptions" ng-model="editor.tinymceModel"></textarea>
+  <br>
+  <button type="button" class="btn btn-warning" ng-click="editor.postContent()">Save Data</button>
+</form><!-- Editor 1 -->
+<hr>
+<form method="post">
+  <textarea ui-tinymce="editor.tinymceOptions" ng-model="editor.textModel"></textarea>
+  <br>
+</form><!-- Editor 2 -->

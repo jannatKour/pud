@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="app/styles/main.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="bower_components/textAngular/dist/textAngular.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="bower_components/jqwidgets/jqwidgets/styles/jqx.base.css" type="text/css" />
+    <link href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" rel="stylesheet">
+    <link href="node_modules/froala-editor/css/froala_style.min.css" rel="stylesheet">
+
+
+    <title>Project Understanding Document</title>
+  </head>
+
+  <body ng-app="app">
+
+    <div class="container">
+      <div ui-view></div>
+    </div><!-- container -->
+
+    <div class="footer">
+      <!--Put a footer if required-->
+    </div><!-- footer -->
+
+    <!-- scripts -->
+
+    <!-- node modules -->
+    <script src="node_modules/angular/angular.min.js"></script>   
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>   
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
+
+    <!--Bower Modules-->
+    <script src="bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="bower_components/restangular/dist/restangular.min.js"></script>
+    <script  src="bower_components/tinymce/tinymce.js"></script>
+    <script  src="bower_components/angular-ui-tinymce/src/tinymce.js"></script>
+    <script src="bower_components/textAngular/dist/textAngular-rangy.min.js"></script>
+    <script src="bower_components/textAngular/dist/textAngular-sanitize.js"></script>
+    <script src="bower_components/textAngular/dist/textAngular.min.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqx-all.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxcore.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxbuttons.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxscrollbar.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxlistbox.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxdropdownlist.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxdropdownbutton.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxcolorpicker.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxwindow.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxeditor.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxtooltip.js"></script>
+    <script src="bower_components/jqwidgets/jqwidgets/jqxcheckbox.js"></script>
+    <script src="bower_components/angular-ckeditor/angular-ckeditor.js"></script>
+    <script src="bower_components/ckeditor/ckeditor.js"></script> 
+
+
+    <!-- Custom scripts -->
+    <script src="app/app.module.js"></script>
+
+    <!-- Features -->
+    <!-- editor -->
+    <script src="app/features/editor/editor.controller.js"></script>
+    <script src= "app/features/editor/editor.service.js"></script>
+    <script src="app/features/editor/restangular.service.js"></script>
+
+  </body>
+
+
+</html>
